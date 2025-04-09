@@ -14,25 +14,28 @@ extension View {
     /// Use this modifier to visually indicate an event or error by shaking the view.
     /// The intensity and frequency of the shake can be customized.
     ///
-    /// To make the shake visible, apply an animation modifier, such as `.animation(.default, value: trigger)`.
+    /// To make the shake visible, apply an animation modifier, such as `animation(.default, value: trigger)`.
     ///
     /// Example usage:
-    ///     struct ContentView: View {
-    ///         @State private var trigger = false
     ///
-    ///         var body: some View {
-    ///             VStack {
-    ///                 Text("Shake Me")
-    ///                     .padding()
-    ///                     .shake(on: trigger)
-    ///                     .animation(.default, value: trigger)
+    /// ```swift
+    /// struct ContentView: View {
+    ///     @State private var trigger = false
     ///
-    ///                 Button("Trigger Shake") {
-    ///                     trigger.toggle()
-    ///                 }
+    ///     var body: some View {
+    ///         VStack {
+    ///             Text("Shake Me")
+    ///                 .padding()
+    ///                 .shake(on: trigger)
+    ///                 .animation(.default, value: trigger)
+    ///
+    ///             Button("Trigger Shake") {
+    ///                 trigger.toggle()
     ///             }
     ///         }
     ///     }
+    /// }
+    /// ```
     ///
     /// - Parameters:
     ///   - trigger: An `Equatable` value that triggers the shake animation when it changes.

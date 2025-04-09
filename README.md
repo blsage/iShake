@@ -1,4 +1,4 @@
-# iShake
+# UnionShake
 
 A lightweight SwiftUI package for adding shake animations to any view with minimal code.
 
@@ -19,7 +19,7 @@ Add iShake to your project through Swift Package Manager:
 1. In Xcode, select **File** > **Add Package Dependencies...**
 2. Enter the repository URL: 
    ```
-   https://github.com/blsage/iShake.git
+   https://github.com/unionst/union-shake.git
    ```
 3. Follow the prompts to complete the installation
 
@@ -27,7 +27,7 @@ Alternatively, add it directly to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/blsage/iShake.git", from: "1.0.0")
+    .package(url: "https://github.com/unionst/union-shake.git", from: "1.0.0")
 ]
 ```
 
@@ -39,7 +39,7 @@ iShake provides a simple `.shake()` view modifier that can be applied to any Swi
 
 ```swift
 import SwiftUI
-import iShake
+import UnionShake
 
 struct ContentView: View {
     @State private var trigger = false
@@ -87,4 +87,4 @@ Text("Custom Shake")
 
 ## License
 
-iShake is available under the MIT license. 
+UnionShake is available under the MIT license. 
