@@ -1,6 +1,5 @@
-# UnionShake
-
-A lightweight SwiftUI package for adding shake animations to any view with minimal code.
+<h1 align="center">UnionShake</h1>
+<h3 align="center">A lightweight SwiftUI package for adding shake animations to any view with minimal code.</h3>
 
 ## Installation
 
