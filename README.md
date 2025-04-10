@@ -1,5 +1,5 @@
 <h1 align="center">UnionShake</h1>
-<h3 align="center">A lightweight SwiftUI package for adding shake animations to any view with minimal code.</h3>
+<h3 align="center">A simple, pretty SwiftUI shake modifier.</h3>
 
 ## Installation
 
