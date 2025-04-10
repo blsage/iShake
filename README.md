@@ -2,14 +2,6 @@
 
 A lightweight SwiftUI package for adding shake animations to any view with minimal code.
 
-## Requirements
-
-- iOS 14.0+
-- macOS 11.0+
-- tvOS 14.0+
-- watchOS 7.0+
-- Swift 6.0+
-
 ## Installation
 
 ### Swift Package Manager
@@ -84,6 +76,14 @@ Text("Custom Shake")
 | `trigger` | `T: Equatable` | (required) | Value that triggers the shake animation when changed |
 | `amount` | `CGFloat` | `5` | Maximum displacement in points |
 | `shakesPerUnit` | `CGFloat` | `3` | Number of oscillations per animation unit |
+
+## Requirements
+
+- iOS 14.0+
+- macOS 11.0+
+- tvOS 14.0+
+- watchOS 7.0+
+- Swift 6.0+
 
 ## License
 
